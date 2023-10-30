@@ -1,7 +1,44 @@
+body {
+  background-color: #430922;
+  color: aliceblue;
+}
 .App {
   text-align: center;
+  font-size: 30px;
 }
-
+p.display {
+  font-size: 20px;
+}
+nav {
+  font-size: 16px;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+nav ul li{
+  list-style: none;
+  padding: 10px;
+}
+nav ul li a{
+  text-decoration: none;
+  padding: 6px;
+  font-weight: bold;
+  color: azure;
+  border-radius: 4px;
+  border: solid thin #61dafb;
+}
+.counter button, .counter input {
+  min-width: 60px;
+  height: 50px;
+  font-size: 30px;
+  margin: 6px;
+}
+.counter input {
+  width: 20px;
+  text-align: center;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
